@@ -192,7 +192,7 @@ ul { list-style: none; }
   padding: 14px 24px;
   font-size: 1rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   border-bottom: 1px solid rgba(255,255,255,0.05);
   transition: color var(--transition), background var(--transition);
 }
