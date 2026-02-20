@@ -122,7 +122,7 @@ ul { list-style: none; }
   transition: background var(--transition);
 }
 .navbar.scrolled {
-  background: rgba(12,1,28,0.92);
+  background: rgba(15,2,33,0.92);
 }
 .nav-container {
   max-width: 1140px;
@@ -169,7 +169,8 @@ ul { list-style: none; }
 .hamburger span {
   display: block;
   width: 24px; height: 2px;
-  background: var(--white);
+  /*background: var(--white);*/
+  background: #ffffff; 
   border-radius: 2px;
   transition: var(--transition);
 }
