@@ -331,7 +331,7 @@ ul { list-style: none; }
 .dot.green { background: #28c840; }
 .mockup-title {
   font-size: 0.72rem;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   font-weight: 600;
   letter-spacing: 0.05em;
   margin-left: 8px;
