@@ -13,10 +13,10 @@
   --purple-light: #c963e0;
   --blue: #4aaee9;
   --blue-hover: #2e90d0;
-  --white: #ffffff;
+  --white: #120223;
   --text-muted: rgba(255,255,255,0.60);
-  --bg-start: #120223;
-  --bg-end: #0f0221;
+  --bg-start: #f4f4f4;
+  --bg-end: #fbfbfb;
   --card-bg: rgba(255,255,255,0.04);
   --card-border: rgba(174,66,195,0.18);
   --radius: 14px;
