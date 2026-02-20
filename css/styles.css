@@ -340,6 +340,7 @@ ul { list-style: none; }
 .mockup-body {
   display: flex;
   min-height: 220px;
+  color: var(--text-graficos);
 }
 .mockup-sidebar {
   width: 100px;
