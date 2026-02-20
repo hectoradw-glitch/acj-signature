@@ -25,6 +25,7 @@
   --font-display: 'Poppins Regular', sans-serif;
   --font-body: 'Poppins light', sans-serif;
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+  --barraentera: rgba(15,2,33,100); 
 }
 
 /* ── Reset ──────────────────────────────────── */
@@ -118,7 +119,7 @@ ul { list-style: none; }
   background: rgba(18,2,35,0.7);
   backdrop-filter: blur(18px);
   border-bottom: 1px solid rgba(174,66,195,0.12);
-  transition: background var(--transition);
+  transition: background var(--barraentera);
 }
 .navbar.scrolled {
   background: rgba(12,1,28,0.92);
