@@ -385,7 +385,7 @@ ul { list-style: none; }
   font-size: 0.68rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   margin-bottom: 12px;
   font-family: var(--font-display);
 }
@@ -410,7 +410,7 @@ ul { list-style: none; }
   font-size: 0.65rem;
 }
 .mdate { color: var(--text-graficos); }
-.mfile { color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.mfile { color: var(--text-graficos); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .maction { color: var(--blue); font-weight: 600; cursor: pointer; }
 .mbadge {
   display: inline-block;
