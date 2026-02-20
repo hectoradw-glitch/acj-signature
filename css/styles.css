@@ -827,7 +827,8 @@ code {
 }
 .footer-brand p {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  /*color: var(--text-muted);*/
+  color: var(--text-graficos); 
   margin-top: 12px;
   line-height: 1.6;
   max-width: 260px;
@@ -843,12 +844,12 @@ code {
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   margin-bottom: 4px;
 }
 .footer-links a {
   font-size: 0.88rem;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   transition: color var(--transition);
 }
 .footer-links a:hover { color: var(--white); }
@@ -857,7 +858,7 @@ code {
   padding-top: 24px;
   text-align: center;
 }
-.footer-bottom p { font-size: 0.8rem; color: var(--text-muted); }
+.footer-bottom p { font-size: 0.8rem; color: var(--text-graficos); }
 
 /* ── Reveal animations ──────────────────────── */
 .reveal {
