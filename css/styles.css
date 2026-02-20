@@ -14,7 +14,7 @@
   --blue: #4aaee9;
   --blue-hover: #2e90d0;
   --white: #120223;
-  --text-muted: rgba(255,255,255,0.60);
+  --text-muted: rgba(9,1,18,0.90);
   --bg-start: #f4f4f4;
   --bg-end: #fbfbfb;
   --card-bg: rgba(255,255,255,0.04);
@@ -88,6 +88,7 @@ ul { list-style: none; }
   border-radius: 50px;
   border: 1px solid rgba(255,255,255,0.2);
   transition: border-color var(--transition), background var(--transition);
+  background: rgba(174,66,195,0.98);
 }
 .btn-ghost:hover {
   border-color: var(--purple);
