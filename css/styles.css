@@ -131,12 +131,14 @@ ul { list-style: none; }
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: #0f0221; 
 }
 .logo {
   font-family: var(--font-display);
   font-weight: 800;
   font-size: 1.3rem;
   letter-spacing: -0.02em;
+  color:#ffffff; 
 }
 .logo-arrow { color: var(--purple); margin-right: 2px; }
 .logo-accent { color: var(--purple); }
@@ -148,7 +150,7 @@ ul { list-style: none; }
 .nav-links a:not(.btn-login) {
   font-size: 0.9rem;
   font-weight: 500;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   transition: color var(--transition);
 }
 .nav-links a:not(.btn-login):hover { color: var(--white); }
@@ -340,7 +342,7 @@ ul { list-style: none; }
 .mockup-body {
   display: flex;
   min-height: 220px;
-  color: var(--text-graficos);
+  
 }
 .mockup-sidebar {
   width: 100px;
@@ -366,7 +368,7 @@ ul { list-style: none; }
   padding: 8px 4px;
   border-radius: 8px;
   font-size: 0.6rem;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   cursor: pointer;
   transition: background var(--transition), color var(--transition);
 }
@@ -393,7 +395,7 @@ ul { list-style: none; }
   gap: 8px;
   font-size: 0.62rem;
   font-weight: 700;
-  color: var(--text-muted);
+  color: var(--text-graficos);
   letter-spacing: 0.05em;
   padding: 6px 8px;
   border-bottom: 1px solid rgba(255,255,255,0.06);
@@ -407,7 +409,7 @@ ul { list-style: none; }
   border-bottom: 1px solid rgba(255,255,255,0.04);
   font-size: 0.65rem;
 }
-.mdate { color: var(--text-muted); }
+.mdate { color: var(--text-graficos); }
 .mfile { color: var(--white); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .maction { color: var(--blue); font-weight: 600; cursor: pointer; }
 .mbadge {
