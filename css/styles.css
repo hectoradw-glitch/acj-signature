@@ -25,7 +25,7 @@
   --font-display: 'Poppins Regular', sans-serif;
   --font-body: 'Poppins light', sans-serif;
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
-  --barraentera: rgba(15,2,33,100); 
+  --barraentera: rgba(15,2,33,0.90); 
 }
 
 /* ── Reset ──────────────────────────────────── */
