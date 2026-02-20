@@ -59,7 +59,8 @@ ul { list-style: none; }
 .btn-primary {
   display: inline-block;
   background: var(--blue);
-  color: var(--white);
+  /*color: var(--white);*/
+  color: var(--text-graficos); 
   font-family: var(--font-display);
   font-weight: 700;
   font-size: 0.95rem;
@@ -514,7 +515,7 @@ ul { list-style: none; }
   font-family: var(--font-display);
   font-size: 3.5rem;
   font-weight: 800;
-  color: rgba(174,66,195,0.15);
+  color: rgba(174,66,195,100);
   line-height: 1;
   margin-bottom: 12px;
 }
@@ -816,6 +817,7 @@ code {
 .footer {
   border-top: 1px solid rgba(255,255,255,0.06);
   padding: 60px 24px 32px;
+  background: rgba(18,2,35,100); 
 }
 .footer-inner {
   display: grid;
