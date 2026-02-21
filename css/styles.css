@@ -14,6 +14,7 @@
   --blue: #4aaee9;
   --blue-hover: #2e90d0;
   --white: #120223;
+  --white: #ffffff; 
   --text-muted: rgba(9,1,18,0.90);
   --text-graficos:  rgba(255,255,255,0.90);
   --bg-start: #f4f4f4;
@@ -26,6 +27,8 @@
   --font-body: 'Poppins light', sans-serif;
   --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
   --barraentera: rgba(15,2,33); 
+  --bg-start-purple: #120223;
+  --bg-end-purple: #0f0221; 
 }
 
 /* ── Reset ──────────────────────────────────── */
@@ -46,6 +49,7 @@ ul { list-style: none; }
 /* ── Utility title classes (user can change colors here) ── */
 .title-accent { color: var(--purple); }
 .title-white  { color: var(--white); }
+.title-white2  { color: var(--white); }
 .title-purple { color: var(--purple); }
 
 /* ── Container ──────────────────────────────── */
@@ -789,7 +793,7 @@ code {
   text-align: center;
   position: relative;
   overflow: hidden;
-  background-color: #ae42c3;
+  background: linear-gradient(160deg, var(--bg-start-purple) 0%, var(--bg-end-purple) 100%);
 }
 .cta-glow {
   position: absolute;
