@@ -127,7 +127,7 @@ ul { list-style: none; }
   transition: background var(--transition);
 }
 .navbar.scrolled {
-  background: rgba(15,2,33,0.92);
+  background: rgba(15,2,33);
 }
 .nav-container {
   max-width: 1140px;
