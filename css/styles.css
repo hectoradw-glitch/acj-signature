@@ -814,6 +814,12 @@ code {
 }
 .cta-sub {
   font-size: 1.1rem;
+  color: var(--text-muted);
+  margin-bottom: 36px;
+}
+
+.cta-sub2 {
+  font-size: 1.1rem;
   color: var(--text-graficos);
   margin-bottom: 36px;
 }
